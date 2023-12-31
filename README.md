@@ -65,12 +65,11 @@ The Student Management System allows users to perform various tasks related to c
 ![Search Student](https://github.com/SudeCat/Web-Final-Project/assets/81020923/7ae0b82b-b4f9-4340-9d87-04b069a5bb78)
 
 
-## Installation
+##Installation
 
 1. Clone the repository:
-
-```bash
-git clone https://github.com/catsude/student-management-system.git
+   ```bash
+   git clone https://github.com/SudeCat/Web-Final-Project.git
 
 ## Contributing
 
@@ -85,4 +84,5 @@ If you'd like to contribute to the project, follow these steps:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
