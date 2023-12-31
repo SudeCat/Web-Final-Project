@@ -65,7 +65,7 @@ The Student Management System allows users to perform various tasks related to c
 ![Search Student](https://github.com/SudeCat/Web-Final-Project/assets/81020923/7ae0b82b-b4f9-4340-9d87-04b069a5bb78)
 
 
-##Installation
+## Installation
 
 1. Clone the repository:
    ```bash
