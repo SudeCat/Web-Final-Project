@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+nav { /*navigation part of the select course page*/
+    height: 70px;
+    background: #003366;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+label.writing{
+    color: white;
+    line-height: 80px;
+    font-size: 30px;
+    font-weight: bold ;
+}
+form { /* form part for selecting course */
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #004080; 
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 64, 128, 0.1); 
+}
+
+h1 {
+    color: #004080; 
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+select, button {
+    padding: 8px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #004080; 
+    color: #fff; 
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0055a4; 
+}
+
+table { /* table to display students for chosen course */
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #004080;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #004080;
+    color: #fff; 
+}
+
+tbody tr:nth-child(even) {
+    background-color: #cce5ff; 
+}
+
+a {
+    color: #004080; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

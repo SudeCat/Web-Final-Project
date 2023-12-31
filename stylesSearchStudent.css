@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    color: #004080;
+}
+nav {
+    height: 70px;
+    background: #003366;
+    margin-bottom: 15px;
+    text-align: center;
+}
+label.writing{
+    color: white;
+    line-height: 80px;
+    font-size: 30px;
+    font-weight: bold ;
+}
+
+
+form { /* form arrangements for searched student bar*/
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #004080; 
+    border-radius: 8px;
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 64, 128, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #004080; 
+    color: #fff; 
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0055a4; 
+}
+
+#searchResults {
+    margin-top: 20px;
+}
+
+a {
+    color: #004080;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#searchResults { /* arrangements to display student info by searched student */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.studentResult {
+    border: 1px solid #004080;
+    padding: 80px;
+    margin: 80px;
+    width: 300px;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Cat College</title>
+</head>
+<body>
+    <nav> <!--navigation part -->
+        <label class ="writing">Student Management System</label>
+        <ul>
+            <li><a href = "#"><span class="icon"><img class = "icon" src="./images/message.png"></span></a></li>
+            <li><a href = "#"><span class="icon"><img class = "icon" src="./images/ring.png"></a></li>
+            <li>
+                <a href = "#">
+                    <span class="icon"><img class = "icon" src="./images/user.png">
+                    <span class="item">Admin</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="left-container">
+        <div class="sidebar"><!--menu item-->
+
+            <div class="logo">
+                <img src="./images/schoolLogo.png">
+            </div>
+            <ul>
+                <li>
+                    <a id="dashboardLink"  href="#">
+                        <span class="icon"><img class = "icon" src="./images/dashboard.png"></span>
+                        <span class="item">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="addCourseLink" href="add_course_page.html">
+                        <span class="icon"><img class = "icon" src="./images/course.png"></span>
+                        <span class="item">Add Course</span>
+                    </a>
+                </li>
+                <li>
+                    <a a id="selectCourseLink" href="select_course_page.html">
+                        <span class="icon"><img class = "icon" src="./images/course.png"></span>
+                        <span class="item">Select Course</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="addStudentLink" href="add_student_page.html">
+                        <span class="icon"><img class = "icon" src="./images/students.png"></span>
+                        <span class="item">Add Student</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="manageStudentLink" href="search_student_page.html">
+                        <span class="icon"><img class = "icon" src="./images/students.png"></span>
+                        <span class="item">Search Student</span>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    <div id ="announcements"> <!--announcement part-->
+        <h1>Announcements</h1>
+        <div class="announcement">
+            <p>Dear students, we hope you are having a great start to the new semester! The re-registration process has officially begun. Please make sure to renew your registration within the specified dates to ensure a smooth transition into the upcoming academic term.</p>
+        </div>
+
+        <div class="announcement">
+            <p>We are pleased to announce the updated schedule for the upcoming exams. Please take a moment to review the exam timetable, and start preparing accordingly. Wishing you all the best of luck!</p>
+        </div>
+
+        <div class="announcement">
+            <p>We are excited to invite you to our upcoming school event! Registration is now open, and we encourage your participation. For more details and registration, please visit the school's reception desk. Let's make this event memorable together!</p>
+        </div>    
+    </div>
+
+    <div id="timeline"> <!--timeline table for classes-->
+        <h2>Today's Timetable</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Room No.</th>
+                    <th>Subject</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10-11 AM</td>
+                    <td>B-3B08</td>
+                    <td>Mobile Application</td>
+                </tr>
+
+                <tr>
+                    <td>11-12 AM</td>
+                    <td>C-105</td>
+                    <td>General Physics 1</td>
+
+                </tr>
+                <tr>
+                    <td>01-02 PM</td>
+                    <td>C-B06</td>
+                    <td>Calculus 1</td>
+
+                </tr>
+                <tr>
+                    <td>03-04 PM</td>
+                    <td>F-B07</td>
+                    <td>Logic Design</td>
+
+                </tr>
+            </tbody>
+        </table>   
+    </div>
+
+        
+</body>
+</html>

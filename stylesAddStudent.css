@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+/* navigation part for adding student */
+nav {
+    height: 70px;
+    background: #003366;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+label.writing{
+    color: white;
+    line-height: 80px;
+    font-size: 30px;
+    font-weight: bold ;
+}
+
+/* form part where we are adding student to course by enetering necessary info*/
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #004080;
+    color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* GPA part where we are viewing student GPA by entering student ID*/
+#viewGpa{
+    max-width: 400px;
+    max-height: 200px;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: #004080; 
+    color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+#form{
+    display: flex;
+    justify-content: space-around;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: white; 
+}
+
+input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #0055a4;
+    color: #fff; 
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #004080; 
+}
+
+p {
+    color: white; 
+    margin-top: 10px;
+}
+
+a {
+    color: #004080; 
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* arrangements to make it responsive*/
+@media(max-width: 952px) {
+    label.writing {
+        font-size: 18px;
+    }
+
+    form, #viewGpa {
+        padding: 10px;
+        max-width: none;
+        margin: 20px auto;
+    }
+
+    input, select, button {
+        padding: 5px;
+    }
+}

@@ -1,0 +1,781 @@
+{
+  "students": [
+    {
+      "studentId": "1",
+      "studentName": "John",
+      "studentSurname": "Doe",
+      "courses": {
+        "101": {"midtermScore": 85, "finalScore": 90},
+        "202": {"midtermScore": 78, "finalScore": 85},
+        "303": {"midtermScore": 92, "finalScore": 88}
+      },
+      "gpa": 0
+    },
+    {
+      "studentId": "2",
+      "studentName": "Jane",
+      "studentSurname": "Smith",
+      "courses": {
+        "101": {"midtermScore": 90, "finalScore": 88},
+        "202": {"midtermScore": 85, "finalScore": 82},
+        "303": {"midtermScore": 89, "finalScore": 91}
+      },
+      "gpa": 0
+    },
+    {
+      "studentId": "3",
+      "studentName": "Alice",
+      "studentSurname": "Johnson",
+      "courses": {
+        "101": {"midtermScore": 80, "finalScore": 78},
+        "202": {"midtermScore": 89, "finalScore": 92},
+        "303": {"midtermScore": 95, "finalScore": 96}
+      },
+      "gpa": 0
+    },
+    {
+      "studentId": "4",
+      "studentName": "Bob",
+      "studentSurname": "Anderson",
+      "courses": {
+        "101": {"midtermScore": 88, "finalScore": 92},
+        "202": {"midtermScore": 79, "finalScore": 85},
+        "303": {"midtermScore": 91, "finalScore": 94}
+      },
+      "gpa": 0
+    },
+    {
+      "studentId": "5",
+      "studentName": "Eva",
+      "studentSurname": "Miller",
+      "courses": {
+        "101": {"midtermScore": 92, "finalScore": 87},
+        "202": {"midtermScore": 91, "finalScore": 88},
+        "303": {"midtermScore": 83, "finalScore": 80}
+      },
+      "gpa": 0
+    },
+    {
+      "studentId": "6",
+      "studentName": "Emma",
+      "studentSurname": "Taylor",
+      "courses": {
+        "401": {"midtermScore": 55, "finalScore": 72},
+        "502": {"midtermScore": 30, "finalScore": 24}
+      },
+      "gpa": 0
+    },
+    {
+      "studentId": "7",
+      "studentName": "Daniel",
+      "studentSurname": "Jones",
+      "courses": {
+        "401": {"midtermScore": 78, "finalScore": 81},
+        "502": {"midtermScore": 75, "finalScore": 78}
+      },
+      "gpa": 0
+    },
+    {
+      "studentId": "8",
+      "studentName": "Ava",
+      "studentSurname": "Davis",
+      "courses": {
+        "401": {"midtermScore": 52, "finalScore": 67},
+        "502": {"midtermScore": 87, "finalScore": 82}
+      },
+      "gpa": 0
+    },
+    {
+      "studentId": "9",
+      "studentName": "Michael",
+      "studentSurname": "Martin",
+      "courses": {
+        "101": {"midtermScore": 20, "finalScore": 38},
+        "202": {"midtermScore": 39, "finalScore": 52},
+        "502": {"midtermScore": 75, "finalScore": 76}
+      },
+      "gpa": 0
+    },
+    {
+      "studentId": "10",
+      "studentName": "Grace",
+      "studentSurname": "Anderson",
+      "courses": {
+        "303": {"midtermScore": 68, "finalScore": 72},
+        "502": {"midtermScore": 73, "finalScore": 70}
+      },
+      "gpa": 0
+    },
+    {
+      "studentId": "11",
+      "studentName": "Liam",
+      "studentSurname": "Moore",
+      "courses": {
+        "202": {"midtermScore": 72, "finalScore": 87},
+        "401": {"midtermScore": 55, "finalScore": 62}
+
+      },
+      "gpa": 0
+    },
+    {
+      "studentId": "12",
+      "studentName": "Ella",
+      "studentSurname": "Clark",
+      "courses": {
+        "101": {"midtermScore": 50, "finalScore": 48},
+        "401": {"midtermScore": 79, "finalScore": 42},
+        "502": {"midtermScore": 35, "finalScore": 76}
+      },
+      "gpa": 0
+    },
+    {
+      "studentId": "13",
+      "studentName": "James",
+      "studentSurname": "White",
+      "courses": {
+        "401": {"midtermScore": 88, "finalScore": 92}
+      },
+      "gpa": 0
+    },
+    {
+      "studentId": "14",
+      "studentName": "Mia",
+      "studentSurname": "Harris",
+      "courses": {
+        "101": {"midtermScore": 72, "finalScore": 87},
+        "202": {"midtermScore": 65, "finalScore": 82},
+        "303": {"midtermScore": 89, "finalScore": 91}
+      },
+      "gpa": 0
+    },
+    {
+      "studentId": "15",
+      "studentName": "Benjamin",
+      "studentSurname": "Thomas",
+      "courses": {
+        "101": {"midtermScore": 30, "finalScore": 48},
+        "303": {"midtermScore": 45, "finalScore": 36}
+      },
+      "gpa": 0
+    },
+    {
+      "studentId": "16",
+      "studentName": "Avery",
+      "studentSurname": "Walker",
+      "courses": {
+        "401": {"midtermScore": 38, "finalScore": 42},
+        "502": {"midtermScore": 29, "finalScore": 45}
+      },
+      "gpa": 0
+    },
+    {
+      "studentId": "17",
+      "studentName": "Jackson",
+      "studentSurname": "Evans",
+      "courses": {
+        "303": {"midtermScore": 92, "finalScore": 87},
+        "401": {"midtermScore": 85, "finalScore": 82}
+      },
+      "gpa": 0
+    },
+    {
+      "studentId": "18",
+      "studentName": "Lily",
+      "studentSurname": "Baker",
+      "courses": {
+        "202": {"midtermScore": 80, "finalScore": 78},
+        "502": {"midtermScore": 89, "finalScore": 92}
+      },
+      "gpa": 0
+    },
+    {
+      "studentId": "19",
+      "studentName": "Logan",
+      "studentSurname": "Parker",
+      "courses": {
+        "101": {"midtermScore": 78, "finalScore": 62},
+        "202": {"midtermScore": 69, "finalScore": 75},
+        "303": {"midtermScore": 81, "finalScore": 74}
+      },
+      "gpa": 0
+    },
+    {
+      "studentId": "20",
+      "studentName": "Harper",
+      "studentSurname": "Turner",
+      "courses": {
+        "303": {"midtermScore": 82, "finalScore": 87},
+        "401": {"midtermScore": 85, "finalScore": 72},
+        "502": {"midtermScore": 79, "finalScore": 61}
+      },
+      "gpa": 0
+    }
+
+  ],
+  "courses": [
+    {
+      "courseId": "101",
+      "courseName": "Mathematics",
+      "gradingScale": 10,
+      "credits": 3,
+      "students": [
+        {
+          "studentId": "1",
+          "studentName": "John",
+          "studentSurname": "Doe",
+          "courses": {
+            "101": {"midtermScore": 85, "finalScore": 90},
+            "202": {"midtermScore": 78, "finalScore": 85},
+            "303": {"midtermScore": 92, "finalScore": 88}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "2",
+          "studentName": "Jane",
+          "studentSurname": "Smith",
+          "courses": {
+            "101": {"midtermScore": 90, "finalScore": 88},
+            "202": {"midtermScore": 85, "finalScore": 82},
+            "303": {"midtermScore": 89, "finalScore": 91}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "3",
+          "studentName": "Alice",
+          "studentSurname": "Johnson",
+          "courses": {
+            "101": {"midtermScore": 80, "finalScore": 78},
+            "202": {"midtermScore": 89, "finalScore": 92},
+            "303": {"midtermScore": 95, "finalScore": 96}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "4",
+          "studentName": "Bob",
+          "studentSurname": "Anderson",
+          "courses": {
+            "101": {"midtermScore": 88, "finalScore": 92},
+            "202": {"midtermScore": 79, "finalScore": 85},
+            "303": {"midtermScore": 91, "finalScore": 94}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "5",
+          "studentName": "Eva",
+          "studentSurname": "Miller",
+          "courses": {
+            "101": {"midtermScore": 92, "finalScore": 87},
+            "202": {"midtermScore": 91, "finalScore": 88},
+            "303": {"midtermScore": 83, "finalScore": 80}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "9",
+          "studentName": "Michael",
+          "studentSurname": "Martin",
+          "courses": {
+            "101": {"midtermScore": 20, "finalScore": 38},
+            "202": {"midtermScore": 39, "finalScore": 52},
+            "502": {"midtermScore": 75, "finalScore": 76}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "12",
+          "studentName": "Ella",
+          "studentSurname": "Clark",
+          "courses": {
+            "101": {"midtermScore": 50, "finalScore": 48},
+            "401": {"midtermScore": 79, "finalScore": 42},
+            "502": {"midtermScore": 35, "finalScore": 76}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "14",
+          "studentName": "Mia",
+          "studentSurname": "Harris",
+          "courses": {
+            "101": {"midtermScore": 72, "finalScore": 87},
+            "202": {"midtermScore": 65, "finalScore": 82},
+            "303": {"midtermScore": 89, "finalScore": 91}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "15",
+          "studentName": "Benjamin",
+          "studentSurname": "Thomas",
+          "courses": {
+            "101": {"midtermScore": 30, "finalScore": 48},
+            "202": {"midtermScore": 59, "finalScore": 32},
+            "303": {"midtermScore": 45, "finalScore": 36}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "19",
+          "studentName": "Logan",
+          "studentSurname": "Parker",
+          "courses": {
+            "101": {"midtermScore": 78, "finalScore": 62},
+            "202": {"midtermScore": 69, "finalScore": 75},
+            "303": {"midtermScore": 81, "finalScore": 74}
+          },
+          "gpa": 0
+        }
+
+      ]
+    },
+    {
+      "courseId": "202",
+      "courseName": "English Literature",
+      "gradingScale": 7,
+      "credits": 4,
+      "students": [
+        {
+          "studentId": "1",
+          "studentName": "John",
+          "studentSurname": "Doe",
+          "courses": {
+            "101": {"midtermScore": 85, "finalScore": 90},
+            "202": {"midtermScore": 78, "finalScore": 85},
+            "303": {"midtermScore": 92, "finalScore": 88}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "2",
+          "studentName": "Jane",
+          "studentSurname": "Smith",
+          "courses": {
+            "101": {"midtermScore": 90, "finalScore": 88},
+            "202": {"midtermScore": 85, "finalScore": 82},
+            "303": {"midtermScore": 89, "finalScore": 91}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "3",
+          "studentName": "Alice",
+          "studentSurname": "Johnson",
+          "courses": {
+            "101": {"midtermScore": 80, "finalScore": 78},
+            "202": {"midtermScore": 89, "finalScore": 92},
+            "303": {"midtermScore": 95, "finalScore": 96}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "4",
+          "studentName": "Bob",
+          "studentSurname": "Anderson",
+          "courses": {
+            "101": {"midtermScore": 88, "finalScore": 92},
+            "202": {"midtermScore": 79, "finalScore": 85},
+            "303": {"midtermScore": 91, "finalScore": 94}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "5",
+          "studentName": "Eva",
+          "studentSurname": "Miller",
+          "courses": {
+            "101": {"midtermScore": 92, "finalScore": 87},
+            "202": {"midtermScore": 91, "finalScore": 88},
+            "303": {"midtermScore": 83, "finalScore": 80}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "9",
+          "studentName": "Michael",
+          "studentSurname": "Martin",
+          "courses": {
+            "101": {"midtermScore": 20, "finalScore": 38},
+            "202": {"midtermScore": 39, "finalScore": 52},
+            "502": {"midtermScore": 75, "finalScore": 76}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "11",
+          "studentName": "Liam",
+          "studentSurname": "Moore",
+          "courses": {
+            "202": {"midtermScore": 72, "finalScore": 87},
+            "401": {"midtermScore": 55, "finalScore": 62}
+
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "14",
+          "studentName": "Mia",
+          "studentSurname": "Harris",
+          "courses": {
+            "101": {"midtermScore": 72, "finalScore": 87},
+            "202": {"midtermScore": 65, "finalScore": 82},
+            "303": {"midtermScore": 89, "finalScore": 91}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "18",
+          "studentName": "Lily",
+          "studentSurname": "Baker",
+          "courses": {
+            "202": {"midtermScore": 80, "finalScore": 78},
+            "502": {"midtermScore": 89, "finalScore": 92}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "19",
+          "studentName": "Logan",
+          "studentSurname": "Parker",
+          "courses": {
+            "101": {"midtermScore": 78, "finalScore": 62},
+            "202": {"midtermScore": 69, "finalScore": 75},
+            "303": {"midtermScore": 81, "finalScore": 74}
+          },
+          "gpa": 0
+        }
+      ]
+    },
+    {
+      "courseId": "303",
+      "courseName": "Physics",
+      "gradingScale": 10,
+      "credits": 5,
+      "students": [
+        {
+          "studentId": "1",
+          "studentName": "John",
+          "studentSurname": "Doe",
+          "courses": {
+            "101": {"midtermScore": 85, "finalScore": 90},
+            "202": {"midtermScore": 78, "finalScore": 85},
+            "303": {"midtermScore": 92, "finalScore": 88}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "2",
+          "studentName": "Jane",
+          "studentSurname": "Smith",
+          "courses": {
+            "101": {"midtermScore": 90, "finalScore": 88},
+            "202": {"midtermScore": 85, "finalScore": 82},
+            "303": {"midtermScore": 89, "finalScore": 91}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "3",
+          "studentName": "Alice",
+          "studentSurname": "Johnson",
+          "courses": {
+            "101": {"midtermScore": 80, "finalScore": 78},
+            "202": {"midtermScore": 89, "finalScore": 92},
+            "303": {"midtermScore": 95, "finalScore": 96}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "4",
+          "studentName": "Bob",
+          "studentSurname": "Anderson",
+          "courses": {
+            "101": {"midtermScore": 88, "finalScore": 92},
+            "202": {"midtermScore": 79, "finalScore": 85},
+            "303": {"midtermScore": 91, "finalScore": 94}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "5",
+          "studentName": "Eva",
+          "studentSurname": "Miller",
+          "courses": {
+            "101": {"midtermScore": 92, "finalScore": 87},
+            "202": {"midtermScore": 91, "finalScore": 88},
+            "303": {"midtermScore": 83, "finalScore": 80}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "10",
+          "studentName": "Grace",
+          "studentSurname": "Anderson",
+          "courses": {
+            "303": {"midtermScore": 68, "finalScore": 72},
+            "502": {"midtermScore": 73, "finalScore": 70}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "14",
+          "studentName": "Mia",
+          "studentSurname": "Harris",
+          "courses": {
+            "101": {"midtermScore": 72, "finalScore": 87},
+            "202": {"midtermScore": 65, "finalScore": 82},
+            "303": {"midtermScore": 89, "finalScore": 91}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "15",
+          "studentName": "Benjamin",
+          "studentSurname": "Thomas",
+          "courses": {
+            "101": {"midtermScore": 30, "finalScore": 48},
+            "303": {"midtermScore": 45, "finalScore": 36}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "17",
+          "studentName": "Jackson",
+          "studentSurname": "Evans",
+          "courses": {
+            "303": {"midtermScore": 92, "finalScore": 87},
+            "401": {"midtermScore": 85, "finalScore": 82}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "19",
+          "studentName": "Logan",
+          "studentSurname": "Parker",
+          "courses": {
+            "101": {"midtermScore": 78, "finalScore": 62},
+            "202": {"midtermScore": 69, "finalScore": 75},
+            "303": {"midtermScore": 81, "finalScore": 74}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "20",
+          "studentName": "Harper",
+          "studentSurname": "Turner",
+          "courses": {
+            "303": {"midtermScore": 82, "finalScore": 87},
+            "401": {"midtermScore": 85, "finalScore": 72},
+            "502": {"midtermScore": 79, "finalScore": 61}
+          },
+          "gpa": 0
+        }
+      ]
+    },
+    {
+      "courseId": "401",
+      "courseName": "Chemistry",
+      "gradingScale": 10,
+      "credits": 3,
+      "students": [
+        {
+          "studentId": "6",
+          "studentName": "Emma",
+          "studentSurname": "Taylor",
+          "courses": {
+            "401": {"midtermScore": 55, "finalScore": 72},
+            "502": {"midtermScore": 30, "finalScore": 24}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "7",
+          "studentName": "Daniel",
+          "studentSurname": "Jones",
+          "courses": {
+            "401": {"midtermScore": 78, "finalScore": 81},
+            "502": {"midtermScore": 75, "finalScore": 78}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "8",
+          "studentName": "Ava",
+          "studentSurname": "Davis",
+          "courses": {
+            "401": {"midtermScore": 52, "finalScore": 67},
+            "502": {"midtermScore": 87, "finalScore": 82}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "11",
+          "studentName": "Liam",
+          "studentSurname": "Moore",
+          "courses": {
+            "202": {"midtermScore": 72, "finalScore": 87},
+            "401": {"midtermScore": 55, "finalScore": 62}
+
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "12",
+          "studentName": "Ella",
+          "studentSurname": "Clark",
+          "courses": {
+            "101": {"midtermScore": 50, "finalScore": 48},
+            "401": {"midtermScore": 79, "finalScore": 42},
+            "502": {"midtermScore": 35, "finalScore": 76}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "13",
+          "studentName": "James",
+          "studentSurname": "White",
+          "courses": {
+            "401": {"midtermScore": 88, "finalScore": 92}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "16",
+          "studentName": "Avery",
+          "studentSurname": "Walker",
+          "courses": {
+            "401": {"midtermScore": 38, "finalScore": 42},
+            "502": {"midtermScore": 29, "finalScore": 45}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "17",
+          "studentName": "Jackson",
+          "studentSurname": "Evans",
+          "courses": {
+            "303": {"midtermScore": 92, "finalScore": 87},
+            "401": {"midtermScore": 85, "finalScore": 82}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "20",
+          "studentName": "Harper",
+          "studentSurname": "Turner",
+          "courses": {
+            "303": {"midtermScore": 82, "finalScore": 87},
+            "401": {"midtermScore": 85, "finalScore": 72},
+            "502": {"midtermScore": 79, "finalScore": 61}
+          },
+          "gpa": 0
+        }
+      ]
+    },
+    {
+      "courseId": "502",
+      "courseName": "History",
+      "gradingScale": 7,
+      "credits": 4,
+      "students": [
+        {
+          "studentId": "6",
+          "studentName": "Emma",
+          "studentSurname": "Taylor",
+          "courses": {
+            "401": {"midtermScore": 55, "finalScore": 72},
+            "502": {"midtermScore": 30, "finalScore": 24}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "7",
+          "studentName": "Daniel",
+          "studentSurname": "Jones",
+          "courses": {
+            "401": {"midtermScore": 78, "finalScore": 81},
+            "502": {"midtermScore": 75, "finalScore": 78}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "8",
+          "studentName": "Ava",
+          "studentSurname": "Davis",
+          "courses": {
+            "401": {"midtermScore": 52, "finalScore": 67},
+            "502": {"midtermScore": 87, "finalScore": 82}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "9",
+          "studentName": "Michael",
+          "studentSurname": "Martin",
+          "courses": {
+            "101": {"midtermScore": 20, "finalScore": 38},
+            "202": {"midtermScore": 39, "finalScore": 52},
+            "502": {"midtermScore": 75, "finalScore": 76}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "10",
+          "studentName": "Grace",
+          "studentSurname": "Anderson",
+          "courses": {
+            "303": {"midtermScore": 68, "finalScore": 72},
+            "502": {"midtermScore": 73, "finalScore": 70}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "12",
+          "studentName": "Ella",
+          "studentSurname": "Clark",
+          "courses": {
+            "101": {"midtermScore": 50, "finalScore": 48},
+            "401": {"midtermScore": 79, "finalScore": 42},
+            "502": {"midtermScore": 35, "finalScore": 76}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "16",
+          "studentName": "Avery",
+          "studentSurname": "Walker",
+          "courses": {
+            "401": {"midtermScore": 38, "finalScore": 42},
+            "502": {"midtermScore": 29, "finalScore": 45}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "18",
+          "studentName": "Lily",
+          "studentSurname": "Baker",
+          "courses": {
+            "202": {"midtermScore": 80, "finalScore": 78},
+            "502": {"midtermScore": 89, "finalScore": 92}
+          },
+          "gpa": 0
+        },
+        {
+          "studentId": "20",
+          "studentName": "Harper",
+          "studentSurname": "Turner",
+          "courses": {
+            "303": {"midtermScore": 82, "finalScore": 87},
+            "401": {"midtermScore": 85, "finalScore": 72},
+            "502": {"midtermScore": 79, "finalScore": 61}
+          },
+          "gpa": 0
+        }   
+      ]
+    }
+
+  ]
+}

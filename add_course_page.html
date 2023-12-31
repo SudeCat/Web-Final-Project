@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesAddCourse.css">
+    <script defer src="./courseactions.js"></script>
+
+    <title>Add Course - Cat College</title>
+</head>
+<body>
+    <nav> <!-- navigation bar for adding course -->
+        <label class ="writing">Add Course</label>
+        
+    </nav>
+    <form id="addCourseForm"> <!-- form part where we are adding course to the system -->
+        <div id="addedCourseInfo"></div>
+        <label for="courseId">Course Id:</label>
+        <input type="text" id="courseId" name="courseId" required>
+
+        <label for="courseName">Course Name:</label>
+        <input type="text" id="courseName" name="courseName" required>
+
+        <label for="gradingScale">Grading Scale:</label>
+        <select id="gradingScale" name="gradingScale" required>
+            <option value="10">10</option>
+            <option value="7">7</option>
+        </select>
+
+        <label for="credits">Credits:</label>
+        <input type="number" id="credits" name="credits" required>
+
+        <label for="existingCourses">Added Courses</label>
+        <select id="existingCourses" name="existingCourses">
+            <!-- Mevcut dersler buraya gelecek -->
+        </select>
+
+        <button type="button" onclick="addCourseFromForm()">Add Course</button>
+        <button type="button" onclick="clearLocalStorage()">Clear Local Storage</button>
+        <!-- clear local storage button to clear local storage for making optimization easily   -->
+
+    </form>
+    <br>
+    <br>
+    <a href="index.html">Back to Main Page</a>
+</body>
+</html>

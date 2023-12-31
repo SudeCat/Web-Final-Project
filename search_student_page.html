@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesSearchStudent.css">
+    <script defer src="./courseactions.js"></script>
+
+    <title>Search Student - Cat College</title>
+</head>
+<body>
+    <nav> <!--navigation part for searching student  -->
+        <label class ="writing">Search Student</label>
+        
+    </nav>
+    <form> <!-- search bar to enter student name and do searching -->        
+        <label for="searchStudent">Search Student:</label>
+        <input type="text" id="searchStudent" name="searchStudent" oninput="searchStudents()">
+
+    </form>
+    <br>
+    <h2>Search For Student</h2>
+
+    <div id="searchResults"></div> <!--displaying student info by searced name -->
+    <br>
+    <br>
+    <br>
+        
+    <a href="index.html">Back to Main Page</a>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesAddStudent.css">
+    <script defer src="./courseactions.js"></script>
+
+    <title>Add Student and Scores - Cat College</title>
+</head>
+<body>
+    <nav>
+        <label class ="writing">Add Student and Scores</label>
+        
+    </nav>
+    <div id = form> <!--adding student to the course part -->
+        <form id="addStudentForm">
+            <label for="studentId">Student ID:</label>
+            <input type="text" id="studentId" name="studentId" required>
+
+            <label for="studentName">Name:</label>
+            <input type="text" id="studentName" name="studentName" required>
+
+            <label for="studentSurname">Surname:</label>
+            <input type="text" id="studentSurname" name="studentSurname" required>
+
+            <label for="midtermScore">Midterm Score:</label>
+            <input type="number" id="midtermScore" name="midtermScore" required>
+
+            <label for="finalScore">Final Score:</label>
+            <input type="number" id="finalScore" name="finalScore" required>
+            <label for="existingCourses">Select Course:</label>
+            <select id="existingCourses" name="existingCourses">
+                <!-- existing courses will appear here  -->
+            </select>
+
+
+            <button type="button" onclick="addStudentAndScores()">Add Student and Scores</button>
+
+        </form>
+        <form id="viewGpa"> <!-- viewing gpa with student id part -->
+
+            <label for="viewStudentGPA">View Student GPA:</label>
+            <input type="text" id="viewStudentGPA" name="viewStudentGPA" required>
+            <button type="button" id="viewGpaButton">View GPA</button>
+            <p id="viewGpaMessage"></p>
+
+        </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+   
+    <a href="index.html">Back to Main Page</a>
+    
+</body>
+</html>

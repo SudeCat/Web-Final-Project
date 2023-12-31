@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 10px;
+    padding: 20px;
+}
+nav { /* navigation bar for adding course*/
+    height: 70px;
+    background: #003366;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+label.writing{
+    color: white;
+    line-height: 80px;
+    font-size: 30px;
+    font-weight: bold ;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #003366;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+a {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #003366;
+}
+
+button:hover, a:hover {
+    background-color: #003366;
+}
+
+#addedCourseInfo { /* viewing current added course info */
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #003366;
+}

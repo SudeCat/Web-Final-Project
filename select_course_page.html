@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesSelectCourse.css">
+    <script defer src="./courseactions.js"></script>
+
+    <title>Select Course - Cat College</title>
+</head>
+<body>
+    <nav>
+        <label class ="writing">Select Course</label>
+        
+    </nav>
+    
+    <form>
+        <label for="existingCourses">All Courses:</label>
+        <select id="existingCourses" name="existingCourses">
+            <!-- existing courses will appear here -->
+        </select>
+
+
+        <label for="selectedCourse">Select Course:</label>
+        <select id="selectedCourse" name="selectedCourse">
+            <!-- existing courses can be chosen from here  -->
+        </select>
+        
+
+        <button type="button" onclick="displaySelectedCourseStudents()">Show Students for Selected Course</button>
+        
+        <label for="viewStatus">View Students:</label> <!-- options for selected course to filter search -->
+        <select id="viewStatus">
+          <option value="failed">Failed Students</option>
+          <option value="passed">Passed Students</option>
+        </select>
+
+        <button  type="button" onclick="displaySelectedStatusStudents()">Show Students by Status</button>
+        <button  type="button" onclick="calculateClassMeanScore()">Calculate Class Mean Score</button>
+    </form>
+    <br>
+    <!-- Table to display students for chosen course -->
+    <h2>Student Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Student ID</th>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Midterm Score</th>
+                <th>Final Score</th>
+                <th>Letter Grade</th>
+                <th>Actions</th>
+                <th></th>
+
+
+            </tr>
+        </thead>
+        <tbody id="studentScoresTableBody">
+            <!-- Students info will be displayed here -->
+        </tbody>
+    </table>
+    <br>
+
+    <a href="index.html">Back to Main Page</a>
+</body>
+</html>
